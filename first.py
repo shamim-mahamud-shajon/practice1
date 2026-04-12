@@ -49,3 +49,7 @@ y = f"today is a {x} day"
 print(y)
 
 
+#range(start, stop, step)
+x = range(2, 6)
+for i in x:
+    print(i, end = " ")
